@@ -1,0 +1,253 @@
+<!--
+Single-file homepage for CLIMAFIX with summit-first design.
+Author: Generated for applicant assignment
+Instructions: Save as index.html, compress to ZIP and deploy.
+--> 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CLIMAFIX — Summit 2025</title>
+  <meta name="description" content="CLIMAFIX Summit — climate action, innovation & collaboration. Register for Summit 2025." />
+  <style>
+    :root{
+      --green:#0b8457; --teal:#0b6b8f; --muted:#61707a; --glass: rgba(255,255,255,0.06);
+      --max-w:1100px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial; margin:0; background:linear-gradient(180deg,#f6fbff 0%, #ffffff 100%); color:#0b2233; -webkit-font-smoothing:antialiased}
+    .wrap{max-width:var(--max-w); margin:0 auto; padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:46px;height:46px;border-radius:10px;background:linear-gradient(135deg,var(--green),var(--teal));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    nav a{margin-left:18px;text-decoration:none;color:var(--muted);font-weight:600}
+    .hero{background:linear-gradient(90deg, rgba(11,132,87,0.06), rgba(11,107,143,0.03)); padding:48px;border-radius:18px;display:grid;grid-template-columns:1fr 420px;gap:24px;align-items:center}
+    .eyebrow{display:inline-block;background:var(--green);color:#fff;padding:6px 10px;border-radius:999px;font-weight:700;font-size:13px}
+    h1{font-size:34px;margin:12px 0 8px;line-height:1.05}
+    p.lead{color:var(--muted);margin:0 0 18px}
+    .ctas{display:flex;gap:12px}
+    .btn{background:var(--teal);color:#fff;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn.ghost{background:transparent;border:2px solid rgba(11,107,143,0.12);color:var(--teal)}
+    .stats{display:flex;gap:18px;margin-top:18px}
+    .stat{background:rgba(11,132,87,0.06);padding:10px 12px;border-radius:10px}
+    .card{background:#fff;padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(11,34,51,0.06)}
+    .summit-image{width:100%;height:240px;border-radius:12px;object-fit:cover}
+    section{margin-top:28px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .past-card{padding:14px;border-radius:10px;background:linear-gradient(180deg,#fff,#f6fafb);border:1px solid rgba(11,34,51,0.04)}
+    .speakers{display:flex;gap:12px;flex-wrap:wrap}
+    .speaker{width:120px;text-align:center}
+    .speaker img{width:96px;height:96px;border-radius:999px;object-fit:cover}
+    footer{margin-top:36px;padding:24px 0;color:var(--muted);border-top:1px solid rgba(11,34,51,0.04)}
+    @media (max-width:900px){.hero{grid-template-columns:1fr;}.grid-3{grid-template-columns:1fr 1fr}.wrap{padding:18px}}
+    @media (max-width:520px){.grid-3{grid-template-columns:1fr}.speakers{justify-content:space-between}.brand .name{display:none}}
+    /* subtle animation */
+    .reveal{opacity:0;transform:translateY(8px);animation:reveal .7s forwards}
+    @keyframes reveal{to{opacity:1;transform:none}}
+    .badge{font-size:12px;padding:6px 8px;border-radius:8px;background:linear-gradient(90deg,#f0fff4,#e8fbff)}
+    .mini{font-size:13px;color:var(--muted)}
+    .muted{color:var(--muted)}
+    .partners{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .partner{height:34px;opacity:0.9}
+    /* contact form */
+    .contact-row{display:flex;gap:12px}
+    .contact-row input, textarea{flex:1;padding:12px;border-radius:10px;border:1px solid rgba(11,34,51,0.06)}
+    textarea{min-height:100px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">CF</div>
+        <div>
+          <div style="font-weight:800;letter-spacing:0.2px">CLIMAFIX</div>
+          <div class="mini muted">Climate action • Summit • Innovation</div>
+        </div>
+      </div>
+      <nav class="reveal" style="animation-delay:.08s">
+        <a href="#summit">Summit</a>
+        <a href="#past">Past</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero card">
+        <div>
+          <div class="eyebrow">FEATURED — CLIMAFIX SUMMIT</div>
+          <h1 class="reveal" style="animation-delay:.12s">CLIMAFIX Summit 2025 — Accelerating Climate Action Through Innovation</h1>
+          <p class="lead reveal" style="animation-delay:.18s">Join global leaders, startups, policy makers, and youth innovators to share solutions and scale climate resilience. Hear from past-year highlights and register for 2025.</p>
+
+          <div class="ctas reveal" style="animation-delay:.24s">
+            <a class="btn" href="#register">Register Now</a>
+            <a class="btn ghost" href="#summit">Learn More</a>
+          </div>
+
+          <div class="stats reveal" style="animation-delay:.30s">
+            <div class="stat"><div style="font-weight:800">3</div><div class="mini">Years running</div></div>
+            <div class="stat"><div style="font-weight:800">150+</div><div class="mini">Speakers & Partners</div></div>
+            <div class="stat"><div style="font-weight:800">5k+</div><div class="mini">Attendees (global)</div></div>
+          </div>
+
+          <div style="margin-top:18px" class="reveal" style="animation-delay:.36s">
+            <div class="badge">Next: Summit 2025 — Nov 10-12, 2025 • New Delhi (Tentative)</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card" style="padding:0">
+            <img class="summit-image" src="https://images.unsplash.com/photo-1508830524289-0adcbe822b40?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=0b7b7f5a2cc3b9a0f2f2f2f2f2f2f2f2" alt="summit image"/>
+            <div style="padding:16px">
+              <div style="font-weight:700">Summit 2025 — Theme: Climate Innovation & Equity</div>
+              <div class="mini muted" style="margin-top:6px">Policy, startups, finance & community solutions — 3 days of talks, workshops & showcases.</div>
+              <div style="margin-top:12px;display:flex;gap:8px">
+                <a class="btn" href="#register">Get Tickets</a>
+                <a class="btn ghost" href="#past">See Past Highlights</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="summit">
+        <div style="display:flex;align-items:center;justify-content:space-between">
+          <h2 style="margin:0">About the Summit</h2>
+          <div class="mini muted">Impact, policy, enterprise & youth-led solutions</div>
+        </div>
+        <div style="display:flex;gap:18px;margin-top:12px;flex-wrap:wrap">
+          <div style="flex:1;min-width:240px" class="card reveal" style="animation-delay:.12s">
+            <h3 style="margin-top:0">Why it matters</h3>
+            <p class="muted">The CLIMAFIX Summit is a platform for cross-sector collaboration — accelerating climate adaptation, finance flows, and scalable tech for communities at risk.</p>
+            <ul class="mini muted">
+              <li>Policy & research roundtables</li>
+              <li>Startup pitch showcases</li>
+              <li>Community-focused workshops</li>
+            </ul>
+          </div>
+
+          <div style="width:320px">
+            <div class="card reveal" style="animation-delay:.18s">
+              <h4 style="margin:0 0 8px">Quick Links</h4>
+              <div class="mini muted">Summit program • Registration • Volunteer • Sponsor</div>
+              <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap">
+                <a class="btn ghost" href="https://climafix.in/summit/2023/">2023 Highlights</a>
+                <a class="btn ghost" href="https://climafix.in/summit/2024/">2024 Highlights</a>
+                <a class="btn ghost" href="https://climafix.in/summit/2025/">2025 Info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="past">
+        <h2>Past Summits — Highlights</h2>
+        <div class="grid-3" style="margin-top:12px">
+          <div class="past-card reveal">
+            <img src="https://images.unsplash.com/photo-1542326237-94e3f8a0a9f8?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=abcd" style="width:100%;height:140px;object-fit:cover;border-radius:8px;margin-bottom:10px"/>
+            <div style="font-weight:700">Summit 2023</div>
+            <div class="mini muted">Focus: Community resilience. Featured 40+ speakers and 30 NGOs.</div>
+          </div>
+          <div class="past-card reveal">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=efgh" style="width:100%;height:140px;object-fit:cover;border-radius:8px;margin-bottom:10px"/>
+            <div style="font-weight:700">Summit 2024</div>
+            <div class="mini muted">Focus: Finance & innovation. Startup showcase & policy lab.</div>
+          </div>
+          <div class="past-card reveal">
+            <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=ijkl" style="width:100%;height:140px;object-fit:cover;border-radius:8px;margin-bottom:10px"/>
+            <div style="font-weight:700">Summit 2025 (Preview)</div>
+            <div class="mini muted">Theme & tracks announced. Applications open for speakers & startups.</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="speakers">
+        <h2>Speakers & Partners</h2>
+        <div class="speakers" style="margin-top:12px">
+          <div class="speaker reveal"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" alt="speaker"><div class="mini">Dr. A. Example</div></div>
+          <div class="speaker reveal"><img src="https://images.unsplash.com/photo-1545996124-1f3b7f9ad0b7?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=2" alt="speaker"><div class="mini">Ms. B. Example</div></div>
+          <div class="speaker reveal"><img src="https://images.unsplash.com/photo-1544006786-1b2a3b6e2f3b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=3" alt="speaker"><div class="mini">Mr. C. Example</div></div>
+          <div style="flex:1;min-width:200px" class="card">
+            <div style="font-weight:700">Partners</div>
+            <div class="partners" style="margin-top:10px">
+              <img class="partner" src="https://via.placeholder.com/100x34?text=Univ" alt="partner">
+              <img class="partner" src="https://via.placeholder.com/100x34?text=NGO" alt="partner">
+              <img class="partner" src="https://via.placeholder.com/100x34?text=Fund" alt="partner">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="register">
+        <h2>Register / Get Involved</h2>
+        <div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:12px">
+          <div style="flex:1;min-width:280px" class="card">
+            <h3 style="margin-top:0">Tickets & Call for Proposals</h3>
+            <p class="mini muted">Apply to speak, pitch your startup, or grab an early-bird ticket. Limited seats for in-person attendance.</p>
+            <ol class="mini muted">
+              <li>Volunteer & student scholarships</li>
+              <li>Startup pitch slots (apply)</li>
+              <li>Sponsorship opportunities</li>
+            </ol>
+            <div style="margin-top:12px"><a class="btn" href="#contact">Contact Team</a></div>
+          </div>
+
+          <div style="width:360px" class="card">
+            <h4 style="margin:0">Quick Register</h4>
+            <form onsubmit="event.preventDefault(); alert('Thanks! Registration request sent.\\n(For the assignment, link to the real registration page.)');">
+              <input name="name" placeholder="Your name" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(11,34,51,0.06);margin-top:10px" />
+              <input name="email" type="email" placeholder="Email" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(11,34,51,0.06);margin-top:10px" />
+              <select name="interest" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(11,34,51,0.06);margin-top:10px">
+                <option>Attend (In-person)</option>
+                <option>Attend (Virtual)</option>
+                <option>Apply to Speak / Pitch</option>
+                <option>Volunteer</option>
+              </select>
+              <div style="margin-top:10px;display:flex;gap:8px"><button class="btn" type="submit">Send Request</button><a class="btn ghost" href="https://climafix.in/summit/2025/">Full Summit Page</a></div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:12px">
+          <div style="flex:1;min-width:300px" class="card">
+            <div style="font-weight:700">Get in touch</div>
+            <div class="mini muted" style="margin-top:8px">Email: <a href="mailto:team@climafix.in">team@climafix.in</a></div>
+            <div class="mini muted" style="margin-top:8px">Follow: <a href="#">Twitter</a> • <a href="#">LinkedIn</a> • <a href="#">YouTube</a></div>
+          </div>
+
+          <div style="flex:1;min-width:300px" class="card">
+            <form onsubmit="event.preventDefault(); alert('Thanks — message received (demo).');">
+              <div class="contact-row"><input placeholder="Your name" required/><input type="email" placeholder="Email" required/></div>
+              <div style="margin-top:10px"><textarea placeholder="Message"></textarea></div>
+              <div style="margin-top:10px"><button class="btn" type="submit">Send</button></div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+        <div class="mini muted">© CLIMAFIX • Designed for EAI internship assignment • Generated</div>
+        <div class="mini muted">Last updated: Oct 04, 2025</div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // simple reveal on load
+    document.addEventListener('DOMContentLoaded', ()=>{
+      document.querySelectorAll('.reveal').forEach((el,i)=>{
+        el.style.animationDelay = (i*60)+'ms';
+        el.classList.add('reveal');
+      });
+    });
+  </script>
+</body>
+</html>
